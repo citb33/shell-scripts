@@ -75,4 +75,6 @@ Stat $?
 
 Print "Installing Web Server"
 yum install httpd -y &>>$LOG 
+Stat $?
 
+Print 
