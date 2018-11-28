@@ -11,7 +11,7 @@ URL="http://mirrors.wuchna.com/apachemirror/tomcat/tomcat-${TOMCAT_MAJ_VER}/v${T
 STUDENT_WAR_URL="https://github.com/citb33/project-documentation/raw/master/studentapp.war"
 
 ###DB Params
-USERNAME
+USERNAME=
 JDBC_CON_URI='<Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource" maxActive="100" maxIdle="30" maxWait="10000" username="USERNAME" password="PASSWORD" driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://DBURL:3306/DBNAME"/>'
 
 USER=$(id -u)
