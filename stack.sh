@@ -90,4 +90,5 @@ ProxyPassReverse "/studentapp"  "http://localhost:8080/studentapp"' >/etc/httpd/
 Stat $? 
 
 Print "Starting HTTPD"
-
+systemctl enable httpd 
+systemctl start httpd 
