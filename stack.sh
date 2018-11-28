@@ -52,4 +52,6 @@ else
     wget -qO- $URL | tar -xz 
 fi
 
+
+
 chown student:student $APPHOME/apache-tomcat-$TOMCAT_VER -R 
