@@ -17,6 +17,8 @@ DBURL=RDS-URL
 DBNAME=studentapp
 JDBC_CON_URI='<Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource" maxActive="100" maxIdle="30" maxWait="10000" username="USERNAME" password="PASSWORD" driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://DBURL:3306/DBNAME"/>'
 
+
+
 USER=$(id -u)
 if [ $USER -ne 0 ]; then 
     echo -e "\e[31mYou should be a root user to execute this script\e[0m"
