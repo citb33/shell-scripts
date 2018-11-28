@@ -11,7 +11,7 @@ if [ $USER -ne 0 ]; then
 fi
 
 Print() {
-    
+    echo -e ""
 }
 
 Print "Installing Java"
