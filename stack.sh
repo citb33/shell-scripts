@@ -26,4 +26,4 @@ Print "Installing Java"
 yum install java -y &>>$LOG 
 Stat $?
 
-id 
+id student &>/dev/null  
