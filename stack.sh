@@ -7,7 +7,8 @@ APPUSER=student
 APPHOME=/home/$APPUSER
 TOMCAT_VER="9.0.13"
 TOMCAT_MAJ_VER=$(echo $TOMCAT_VER | cut -d . -f1)
-URL="http://mirrors.wuchna.com/apachemirror/tomcat/tomcat-${TOMCAT_MAJ_VER}/v${TOMCAT_VER}/bin/apache-tomcat-${TOMCAT}.tar.gz"
+URL="http://mirrors.wuchna.com/apachemirror/tomcat/tomcat-${TOMCAT_MAJ_VER}/v${TOMCAT_VER}/bin/apache-tomcat-${TOMCAT_VER}.tar.gz"
+
 
 USER=$(id -u)
 if [ $USER -ne 0 ]; then 
