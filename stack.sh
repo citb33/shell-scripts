@@ -69,4 +69,5 @@ sed -i -e '/TestDB/ d' -e "$ i $JDBC_CON_URI" $APPHOME/apache-tomcat-$TOMCAT_VER
 sed -i -e "s/USERNAME/$USERNAME/" -e "s/PASSWORD/$PASSWORD/" -e "s/DBURL/$DBURL/" -e "s/DBNAME/$DBNAME/" $APPHOME/apache-tomcat-$TOMCAT_VER/conf/context.xml
 wget -q https://raw.githubusercontent.com/citb33/project-documentation/master/tomcat-init-script -O /etc/init.d/tomcat 
 chmod +x /etc/init.d/tomcat
-systemctl enable tomcat &>>
+systemctl enable tomcat &>>$LOG 
+
