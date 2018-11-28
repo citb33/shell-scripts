@@ -73,4 +73,4 @@ systemctl enable tomcat &>>$LOG
 systemctl start tomcat &>>$LOG 
 Stat $?
 
-
+Print "Installing Web Sre="
