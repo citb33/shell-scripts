@@ -70,4 +70,4 @@ sed -i -e "s/USERNAME/$USERNAME/" -e "s/PASSWORD/$PASSWORD/" -e "s/DBURL/$DBURL/
 wget -q https://raw.githubusercontent.com/citb33/project-documentation/master/tomcat-init-script -O /etc/init.d/tomcat 
 chmod +x /etc/init.d/tomcat
 systemctl enable tomcat &>>$LOG 
-
+systemctl start tomcat 
