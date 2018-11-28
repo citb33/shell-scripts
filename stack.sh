@@ -32,4 +32,4 @@ if [ $? -ne 0 ]; then
     Print "Adding Application User"
     useradd $APPUSER
     Stat $?
-
+    
