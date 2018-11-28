@@ -45,6 +45,6 @@ else
 fi
 
 Print "Installing Tomcat"
-if [ -d  ]
+if [ -d $ ]
 cd $APPHOME
 wget -qO- $URL | tar -xz 
