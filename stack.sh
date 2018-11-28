@@ -46,6 +46,6 @@ fi
 
 Print "Installing Tomcat"
 if [ -d $APPHOME/apache-tomcat-$TOMCAT_VER ]; then 
-    
+    Stat SKIP
 cd $APPHOME
 wget -qO- $URL | tar -xz 
