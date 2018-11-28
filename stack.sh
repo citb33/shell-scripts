@@ -40,4 +40,4 @@ else
     Stat SKIP
 fi
 
-    
+wget 
