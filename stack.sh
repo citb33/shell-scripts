@@ -4,6 +4,7 @@
 LOG=/tmp/stack.log 
 rm -f $LOG
 APPUSER=student
+APP
 
 USER=$(id -u)
 if [ $USER -ne 0 ]; then 
