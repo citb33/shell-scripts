@@ -19,7 +19,7 @@ JDBC_CON_URI='<Resource name="jdbc/TestDB" auth="Container" type="javax.sql.Data
 INDEX_HTML='<h1 style="text-align: center;"><strong>Welcome to Student Application</strong></h1>
 <h1 style="text-align: center;"><strong>ON</strong></h1>
 <p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="https://cdn-images-1.medium.com/max/1200/1*tFl-8wQUENETYLjX5mYWuA.png" alt="Image result for aws" width="478" height="251" /></strong></p>
-<p style="text-align: center;"><a href="http:///studentapp"><strong>Click here for application</strong></a></p>'
+<p style="text-align: center;"><a href="http://PUBLICIP/studentapp"><strong>Click here for application</strong></a></p>'
 
 
 USER=$(id -u)
