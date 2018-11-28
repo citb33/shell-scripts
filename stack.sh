@@ -78,3 +78,4 @@ yum install httpd -y &>>$LOG
 Stat $?
 
 Print "Configuring HTTPD"
+
