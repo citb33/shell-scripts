@@ -11,7 +11,7 @@ if [ $USER -ne 0 ]; then
 fi
 
 Print() {
-    echo -e "\e[3"
+    echo -e "\e[35m"
 }
 
 Print "Installing Java"
