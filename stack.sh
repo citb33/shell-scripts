@@ -14,6 +14,14 @@ Print() {
     echo -n -e "\e[35m$1 - "
 }
 
+Stat() {
+    if [ $? -eq 0 ]; then 
+    echo -e "\e[32mSUCCESS\e[0m"
+else
+    echo -e "\e[31mFAILED\e[0m"
+fi
+}
+
 Print "Installing Java"
 yum install java -y &>>$LOG 
 
