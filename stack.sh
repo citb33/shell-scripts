@@ -3,7 +3,7 @@
 ## Script purpose is to install both application and web server.
 LOG=/tmp/stack.log 
 rm -f $LOG
-
+APPUSER=student
 
 USER=$(id -u)
 if [ $USER -ne 0 ]; then 
