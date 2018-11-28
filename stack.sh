@@ -18,3 +18,5 @@ else
     echo -e "\e[31mFAILED\e[0m"
 fi
 #
+
+yum ins
