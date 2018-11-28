@@ -27,3 +27,4 @@ yum install java -y &>>$LOG
 Stat $?
 
 id student &>/dev/null  
+if [ $? -ne ]
