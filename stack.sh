@@ -76,6 +76,9 @@ wget -q https://raw.githubusercontent.com/citb33/project-documentation/master/to
 chmod +x /etc/init.d/tomcat
 Stat $?
 
+systemctl enable tomcat &>>$LOG 
+systemctl start tomcat &>>$LOG 
+
 Print "Installing Web Server"
 yum install httpd -y &>>$LOG 
 Stat $?
