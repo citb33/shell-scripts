@@ -83,4 +83,4 @@ yum install httpd -y &>>$LOG
 Stat $?
 
 Print "Configuring HTTPD"
-INDEX_HTML
+PUBLICIP=$()
