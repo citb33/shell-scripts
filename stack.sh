@@ -45,4 +45,4 @@ else
 fi
 
 cd $APPHOME
-wget -qO$URL 
+wget -qO- $URL |
