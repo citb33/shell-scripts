@@ -84,3 +84,4 @@ Stat $?
 
 Print "Configuring HTTPD"
 PUBLICIP=$(curl ifconfig.me)
+echo $INDEX_HTML
