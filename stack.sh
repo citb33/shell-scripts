@@ -89,4 +89,5 @@ echo 'ProxyPass "/studentapp"  "http://localhost:8080/studentapp"
 ProxyPassReverse "/studentapp"  "http://localhost:8080/studentapp"' >/etc/httpd/conf.d/tomcat.conf 
 Stat $? 
 
-Print "Starting "
+Print "Starting HTTPD"
+
