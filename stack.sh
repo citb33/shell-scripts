@@ -16,7 +16,10 @@ PASSWORD=student1
 DBURL=RDS-URL 
 DBNAME=studentapp
 JDBC_CON_URI='<Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource" maxActive="100" maxIdle="30" maxWait="10000" username="USERNAME" password="PASSWORD" driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://DBURL:3306/DBNAME"/>'
-INDEX
+INDEX_HTML='<h1 style="text-align: center;"><strong>Welcome to Student Application</strong></h1>
+<h1 style="text-align: center;"><strong>ON</strong></h1>
+<p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="https://cdn-images-1.medium.com/max/1200/1*tFl-8wQUENETYLjX5mYWuA.png" alt="Image result for aws" width="478" height="251" /></strong></p>
+<p style="text-align: center;"><a href="http://18.216.33.27/studentapp"><strong>Click here for application</strong></a></p>'
 
 
 USER=$(id -u)
