@@ -49,4 +49,5 @@ if [ -d $APPHOME/apache-tomcat-$TOMCAT_VER ]; then
     Stat SKIP
 else 
     cd $APPHOME
-wget -qO- $URL | tar -xz 
+    wget -qO- $URL | tar -xz 
+fi
