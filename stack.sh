@@ -74,3 +74,4 @@ systemctl start tomcat &>>$LOG
 Stat $?
 
 Print "Installing Web Server"
+
