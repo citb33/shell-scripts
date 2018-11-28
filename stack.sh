@@ -16,7 +16,7 @@ Print() {
 }
 
 Stat() {
-    if [ "" ]
+    if [ "$1" == SKIP ]
     if [ $1 -eq 0 ]; then 
         echo -e "\e[32mSUCCESS\e[0m"
     else
