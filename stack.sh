@@ -30,4 +30,4 @@ Stat $?
 id student &>/dev/null  
 if [ $? -ne 0 ]; then 
     Print "Adding Application User"
-    useradd  
+    useradd  $APPUSER
