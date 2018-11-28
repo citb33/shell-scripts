@@ -10,6 +10,7 @@ TOMCAT_MAJ_VER=$(echo $TOMCAT_VER | cut -d . -f1)
 URL="http://mirrors.wuchna.com/apachemirror/tomcat/tomcat-${TOMCAT_MAJ_VER}/v${TOMCAT_VER}/bin/apache-tomcat-${TOMCAT_VER}.tar.gz"
 
 
+
 USER=$(id -u)
 if [ $USER -ne 0 ]; then 
     echo -e "\e[31mYou should be a root user to execute this script\e[0m"
