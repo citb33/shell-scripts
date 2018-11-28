@@ -6,7 +6,7 @@ rm -f $LOG
 APPUSER=student
 APPHOME=/home/$APPUSER
 TOMCAT_VER="9.0.13"
-TOMCAT_MAJ_VER=$(echo )
+TOMCAT_MAJ_VER=$(echo $TOMCAT_VER | )
 URL="http://mirrors.wuchna.com/apachemirror/tomcat/tomcat-9/v9.0.13/bin/apache-tomcat-9.0.13.tar.gz"
 
 USER=$(id -u)
