@@ -5,7 +5,7 @@ LOG=/tmp/stack.log
 rm -f $LOG
 APPUSER=student
 APPHOME=/home/$APPUSER
-
+TOMCAT_VER
 http://mirrors.wuchna.com/apachemirror/tomcat/tomcat-9/v9.0.13/bin/apache-tomcat-9.0.13.tar.gz
 
 USER=$(id -u)
