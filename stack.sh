@@ -44,5 +44,5 @@ else
     Stat SKIP
 fi
 
-cd 
+cd $APPHOME
 wget $URL 
