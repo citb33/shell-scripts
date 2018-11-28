@@ -51,4 +51,4 @@ else
     cd $APPHOME
     wget -qO- $URL | tar -xz 
 fi
-chown student:student 
+chown student:student $APPHOME/apache-tomcat-$TOMCAT_VER -R 
