@@ -74,4 +74,5 @@ systemctl start tomcat &>>$LOG
 Stat $?
 
 Print "Installing Web Server"
-yum install httpd -y &
+yum install httpd -y &>>$LOG 
+
