@@ -91,4 +91,4 @@ Stat $?
 
 Print "Starting HTTPD"
 systemctl enable httpd &>>$LOG 
-systemctl start httpd 
+systemctl start httpd &>>$LOG 
