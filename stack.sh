@@ -45,4 +45,4 @@ else
 fi
 
 cd $APPHOME
-wget -qO- $URL | tar 
+wget -qO- $URL | tar -xz 
