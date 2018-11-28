@@ -87,3 +87,4 @@ PUBLICIP=$(curl ifconfig.me)
 echo $INDEX_HTML | sed -e "s/PUBLICIP/$PUBLICIP/" >/var/www/html/index.html 
 echo 'ProxyPass "/studentapp"  "http://localhost:8080/studentapp"
 ProxyPassReverse "/studentapp"  "http://localhost:8080/studentapp"' >/etc/httpd/conf.d/tomcat.conf 
+
