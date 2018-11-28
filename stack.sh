@@ -44,4 +44,5 @@ else
     Stat SKIP
 fi
 
+cd 
 wget $URL 
