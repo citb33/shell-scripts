@@ -64,5 +64,5 @@ wget -qO $APPHOME/apache-tomcat-$TOMCAT_VER/webapps/student.war $STUDENT_WAR_URL
 Stat $?
 chown student:student $APPHOME/apache-tomcat-$TOMCAT_VER -R 
 
-
+sed -i -e ''
 
