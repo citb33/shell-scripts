@@ -51,4 +51,4 @@ else
     cd $APPHOME
     wget -qO- $URL | tar -xz 
 fi
-chow
+chown student:student 
