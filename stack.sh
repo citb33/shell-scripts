@@ -24,7 +24,7 @@ Stat() {
 
 Print "Installing Java"
 yum install java -y &>>$LOG 
-Stat 
+Stat $?
 #
 
 yum ins
