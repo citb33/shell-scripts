@@ -51,7 +51,7 @@ else
     cd $APPHOME
     wget -qO- $URL | tar -xz 
 fi
-rm -rf 
+rm -rf $APPHOME/apache-tomcat-$TOMCAT_VER/webapps/*
 
 
 chown student:student $APPHOME/apache-tomcat-$TOMCAT_VER -R 
