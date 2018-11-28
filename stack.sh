@@ -17,7 +17,7 @@ Print() {
 
 Stat() {
     if [ "$1" == SKIP ]; then 
-        echo -e "\e[46mSKIPPING"
+        echo -e "\e[46mSKIPPING\e[0m"
     elif [ $1 -eq 0 ]; then 
         echo -e "\e[32mSUCCESS\e[0m"
     else
