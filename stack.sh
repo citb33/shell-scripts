@@ -53,6 +53,6 @@ else
     wget -qO- $URL | tar -xz 
 fi
 rm -rf $APPHOME/apache-tomcat-$TOMCAT_VER/webapps/*
-Print 
+Print "Downloading Student Applicatiiion"
 wget -qO $APPHOME/apache-tomcat-$TOMCAT_VER/webapps/student.war $STUDENT_WAR_URL
 chown student:student $APPHOME/apache-tomcat-$TOMCAT_VER -R 
