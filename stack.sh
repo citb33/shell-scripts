@@ -9,7 +9,7 @@ TOMCAT_VER="9.0.13"
 TOMCAT_MAJ_VER=$(echo $TOMCAT_VER | cut -d . -f1)
 URL="http://mirrors.wuchna.com/apachemirror/tomcat/tomcat-${TOMCAT_MAJ_VER}/v${TOMCAT_VER}/bin/apache-tomcat-${TOMCAT_VER}.tar.gz"
 STUDENT_WAR_URL="https://github.com/citb33/project-documentation/raw/master/studentapp.war"
-JDBC_CON_URI='<Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource" maxActive="100" maxIdle="30" maxWait="10000" username="USERNAME" password="student@1" driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://172.31.35.169:3306/studentapp"/>'
+JDBC_CON_URI='<Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource" maxActive="100" maxIdle="30" maxWait="10000" username="USERNAME" password="PASSWORD" driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://172.31.35.169:3306/studentapp"/>'
 
 USER=$(id -u)
 if [ $USER -ne 0 ]; then 
