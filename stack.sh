@@ -83,4 +83,4 @@ yum install httpd -y &>>$LOG
 Stat $?
 
 Print "Configuring HTTPD"
-echo 
+INDEX_HTML
