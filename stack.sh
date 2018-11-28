@@ -11,10 +11,10 @@ if [ $USER -ne 0 ]; then
 fi
 
 Print() {
-    
+
 }
 
-echo -n -e "Installing Java -  "
+Print "Installing Java -  "
 yum install java -y &>>$LOG 
 if [ $? -eq 0 ]; then 
     echo -e "\e[32mSUCCESS\e[0m"
